@@ -1,5 +1,6 @@
 Student Performance Analysis
 Gender and Parental Education Effects on Math & Language Scores
+---------------------------------------------------------------------------------------------------------------------------
 
 Project Overview
 ---------------------------------------------------------------------------------------------------------------------------
@@ -33,13 +34,13 @@ language_score (0–100)
 Methods Used
 ---------------------------------------------------------------------------------------------------------------------------
 Descriptive Analysis
-
+-----------------------
 Mean, Median, Standard Deviation
 Group comparisons
 Boxplots & visualizations
 
 Statistical Testing
-
+-----------------------
 Shapiro-Wilk Test → Normality check
 
 Mann-Whitney U Test → Gender comparison
@@ -51,19 +52,19 @@ Post-hoc tests (Bonferroni correction)
 Effect size calculations (rank-biserial correlation, η²)
 
 Correlation Analysis
-
+-----------------------
 Pearson correlation between math and language scores
 
 Key Findings
 ---------------------------------------------------------------------------------------------------------------------------
 Gender Differences
-
+-----------------------
 Males perform better in Mathematics
 Females perform better in Language
 Differences are statistically significant with small to moderate effect sizes
 
 Parental Education
-
+-----------------------
 Strong positive relationship between education level and scores
 Students with parents with master’s degrees perform the best
 Significant differences mainly between:
@@ -71,7 +72,7 @@ High school vs Master’s
 Associate vs Master’s
 
 Correlation
-
+-----------------------
 Strong positive correlation between math and language scores
 → Indicates general academic ability factor
 
