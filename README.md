@@ -27,8 +27,11 @@ Observations: 486 students
 ## Features:
 
 gender (male/female)
+
 parental_education (high school, associate, bachelor, master)
+
 math_score (0–100)
+
 language_score (0–100)
 
 ## Methods Used
