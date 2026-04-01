@@ -69,10 +69,15 @@ Strong positive correlation between math and language scores
 Technologies Used
 
 Python 3.x
+
 pandas
+
 scipy
+
 matplotlib
+
 seaborn
+
 Colap 
 
 Project Structure
