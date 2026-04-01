@@ -2,13 +2,13 @@ Student Performance Analysis
 Gender and Parental Education Effects on Math & Language Scores
 
 Project Overview
-
+---------------------------------------------------------------------------------------------------------------------------
 This project analyzes student performance using statistical methods to investigate how gender and parental education level influence mathematics and language test scores.
 
 The analysis is based on a dataset of 486 students, and it was developed as part of an application report for the M.Sc. Data Science program at TU Dortmund University.
----------------------------------------------------------------------------------------------------------------------------
-Objectives
 
+Objectives
+---------------------------------------------------------------------------------------------------------------------------
 The project answers two main research questions:
 
 Gender Effect
@@ -16,9 +16,9 @@ Is there a statistically significant difference between male and female students
 Parental Education Effect
 Do students' scores differ across parental education levels?
 Which groups show significant differences?
----------------------------------------------------------------------------------------------------------------------------
-Dataset
 
+Dataset
+---------------------------------------------------------------------------------------------------------------------------
 File: Scores.csv
 Observations: 486 students
 Features:
@@ -26,9 +26,9 @@ gender (male/female)
 parental_education (high school, associate, bachelor, master)
 math_score (0–100)
 language_score (0–100)
----------------------------------------------------------------------------------------------------------------------------
-Methods Used
 
+Methods Used
+---------------------------------------------------------------------------------------------------------------------------
 Descriptive Analysis
 
 Mean, Median, Standard Deviation
@@ -44,9 +44,9 @@ Post-hoc tests (Bonferroni correction)
 Effect size calculations (rank-biserial correlation, η²)
 🔗 Correlation Analysis
 Pearson correlation between math and language scores
----------------------------------------------------------------------------------------------------------------------------
-Key Findings
 
+Key Findings
+---------------------------------------------------------------------------------------------------------------------------
 Gender Differences
 
 Males perform better in Mathematics
@@ -65,9 +65,9 @@ Correlation
 
 Strong positive correlation between math and language scores
 → Indicates general academic ability factor
----------------------------------------------------------------------------------------------------------------------------
-Technologies Used
 
+Technologies Used
+---------------------------------------------------------------------------------------------------------------------------
 Python 3.x
 
 pandas
@@ -79,9 +79,9 @@ matplotlib
 seaborn
 
 Colap 
----------------------------------------------------------------------------------------------------------------------------
+
 Project Structure
- 
+ ---------------------------------------------------------------------------------------------------------------------------
 ├── Data_Science_Report.ipynb   # Main analysis notebook
 
 ├── Scores.csv                 # Dataset
@@ -89,16 +89,16 @@ Project Structure
 ├── Application_Report.pdf     # Full report
 
 └── README.md                  # Project documentation
----------------------------------------------------------------------------------------------------------------------------
-Future Improvements
 
+Future Improvements
+---------------------------------------------------------------------------------------------------------------------------
 Include more variables (income, school type, etc.)
 Apply regression models
 Use machine learning for prediction
 Analyze interaction effects more deeply
----------------------------------------------------------------------------------------------------------------------------
-Notes
 
+Notes
+---------------------------------------------------------------------------------------------------------------------------
 This project is fully reproducible and demonstrates:
 
 Statistical analysis skills
